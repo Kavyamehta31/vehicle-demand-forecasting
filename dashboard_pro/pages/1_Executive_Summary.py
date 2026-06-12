@@ -6,7 +6,9 @@ from pathlib import Path
 from utils.data_loader import load_main_data
 from utils.filters import create_filters
 from utils.metrics import kpi_card
+from utils.theme import load_css
 
+load_css()
 
 # =====================================
 # PAGE CONFIG
