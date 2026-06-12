@@ -6,7 +6,31 @@ from utils.filters import create_filters
 from utils.load_css import load_css
 
 load_css()
+st.markdown("""
+<style>
 
+/* Hide Streamlit menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Hide header */
+header {
+    visibility: hidden;
+}
+
+/* Hide footer */
+footer {
+    visibility: hidden;
+}
+
+/* Remove top spacing */
+.block-container {
+    padding-top: 1rem;
+}
+
+</style>
+""", unsafe_allow_html=True)
 # =====================================
 # PAGE CONFIG
 # =====================================
