@@ -156,3 +156,40 @@ section[data-testid="stSidebarNav"] a {
 h1, h2, h3, h4 {
     color: #1e3a8a;
 }
+/* =====================================
+   FILTER DROPDOWNS
+===================================== */
+
+.stSelectbox label {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.stSelectbox div[data-baseweb="select"] {
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+}
+
+.stSelectbox div[data-baseweb="select"] * {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+/* Selected value */
+.stSelectbox span {
+    color: #000000 !important;
+}
+
+/* Dropdown menu items */
+div[role="listbox"] {
+    background-color: white !important;
+}
+
+div[role="option"] {
+    color: black !important;
+    background-color: white !important;
+}
+
+div[role="option"]:hover {
+    background-color: #e6f0ff !important;
+}
